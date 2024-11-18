@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import RestauranteComponent from './components/Restaurante';
+import MenuComponent from './components/Menu';
+
 
 function App() {
   return (
     <div>
-      <div>
-        la vamos nois d novo
-      </div>
-     
+          <RestauranteComponent />
+          <MenuComponent />
     </div>
   );
 }
